@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{6d704182-812b-4365-b42a-422710869722}">
+	<object class="AudioFile" id="{ab5c691f-e5f3-4345-8621-90fb186c741c}">
 		<property name="assetPath">
-			<value>Bird_Ambience.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>Ambience_Outdoor/Birds1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>100.09777083333333</value>
+			<value>0.83462499999999995</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{cde68852-7678-42c6-a83a-aa4dc9b27d2a}</destination>

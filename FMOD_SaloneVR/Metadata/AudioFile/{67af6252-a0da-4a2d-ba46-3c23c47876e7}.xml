@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{2c9d2e90-eadb-4309-8e60-358a8b7e5653}">
+	<object class="AudioFile" id="{67af6252-a0da-4a2d-ba46-3c23c47876e7}">
 		<property name="assetPath">
-			<value>Birds4.wav</value>
+			<value>Ambience_Outdoor/Birds3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
