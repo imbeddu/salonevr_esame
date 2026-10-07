@@ -119,6 +119,69 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &5588084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5588086}
+  - component: {fileID: 5588085}
+  m_Layer: 0
+  m_Name: Ambience_outdoor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &5588085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1496048048
+      Data2: 1327678008
+      Data3: 1216346528
+      Data4: -1855969125
+    Path: event:/BirdsAmbience
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!4 &5588086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588084}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.19012, y: 2.55, z: -7.38115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &30661672 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2194596261931701327, guid: e8f8deb5a30624e479e669f8e64613b8, type: 3}
@@ -530,8 +593,47 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6206195308603300135, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1041780414}
   m_SourcePrefab: {fileID: 100100000, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+--- !u!1 &256362766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+  m_PrefabInstance: {fileID: 2074272896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &256362768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 256362766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1655678024
+      Data2: 1282416944
+      Data3: -673447260
+      Data4: -2060722337
+    Path: event:/BirdsTree
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &274303673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2259,6 +2361,42 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1563292117}
   m_SourcePrefab: {fileID: 100100000, guid: 7d586b4a941812f4c96edf51d20fdc73, type: 3}
+--- !u!1 &697246529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+  m_PrefabInstance: {fileID: 879469803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &697246531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697246529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1655678024
+      Data2: 1282416944
+      Data3: -673447260
+      Data4: -2060722337
+    Path: event:/BirdsTree
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &712900736
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,7 +3455,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6206195308603300135, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 801065155}
   m_SourcePrefab: {fileID: 100100000, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
 --- !u!4 &777888645 stripped
 Transform:
@@ -3329,6 +3470,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8749893754708885322, guid: 38340d4a0ac59e14dba87194143b1881, type: 3}
   m_PrefabInstance: {fileID: 1124732203}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &801065153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+  m_PrefabInstance: {fileID: 773885546}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &801065155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801065153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1655678024
+      Data2: 1282416944
+      Data3: -673447260
+      Data4: -2060722337
+    Path: event:/BirdsTree
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &845719444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3526,7 +3703,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 697246531}
   m_SourcePrefab: {fileID: 100100000, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
 --- !u!1 &920921510
 GameObject:
@@ -3990,6 +4170,42 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &1041780412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 891296320503846812, guid: cb06e7948ae194e5c857625809ea38ae, type: 3}
+  m_PrefabInstance: {fileID: 242430000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1041780414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041780412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1655678024
+      Data2: 1282416944
+      Data3: -673447260
+      Data4: -2060722337
+    Path: event:/BirdsTree
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1067250400
 GameObject:
   m_ObjectHideFlags: 0
@@ -7559,7 +7775,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 216653339341224484, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 256362768}
   m_SourcePrefab: {fileID: 100100000, guid: 5fb35b650644e4aaebf1f7d09bc38a17, type: 3}
 --- !u!1001 &2079487895
 PrefabInstance:
@@ -7843,3 +8062,4 @@ SceneRoots:
   - {fileID: 879469803}
   - {fileID: 1422377634}
   - {fileID: 1171997248}
+  - {fileID: 5588086}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="UiMixerView" id="{023d778b-35c8-4516-aecf-052a02dd0d38}">
+		<property name="name">
+			<value>Ambience_outdoor</value>
+		</property>
+		<relationship name="assignedStrips">
+			<destination>{c066d335-99b9-4fbc-b523-3b9a5893c020}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{31dab9ac-04bd-4f9e-ae13-9d3e22d6b435}</destination>
+		</relationship>
+	</object>
+</objects>
