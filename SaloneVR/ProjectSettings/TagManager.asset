@@ -8,6 +8,12 @@ TagManager:
   - TennisBall
   - Box
   - Trail
+  - MAT_Carpet
+  - MAT_Erba
+  - MAT_Metallo
+  - MAT_Racchetta
+  - MAT_Solido
+  - MAT_Finestra
   layers:
   - Default
   - TransparentFX
